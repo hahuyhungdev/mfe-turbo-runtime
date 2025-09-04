@@ -1,0 +1,22 @@
+{
+  "name": "products",
+  "private": true,
+  "dependencies": {
+    "@mfe/ui": "file:../../packages/ui",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "^1.8.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^5.0.2",
+    "typescript": "^5.5.0",
+    "vite": "^7.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
